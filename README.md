@@ -2,6 +2,14 @@
 
 This project is a fully functional question-answer web application that allows users to upload a file and ask questions about its contents. The system processes the file, extracts the text, and enables users to query the text for specific information.
 
+## How to run sever
+```bash
+git clone https://github.com/your-username/question-answer-website.git
+cd question-answer-website
+poetry install
+poetry run python -m core.server
+```
+
 ## Features
 
 - **File Upload:** Users can upload various document formats.
