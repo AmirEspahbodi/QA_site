@@ -7,7 +7,7 @@ This project is a fully functional question-answer web application that allows u
 git clone https://github.com/your-username/question-answer-website.git
 cd question-answer-website
 poetry install
-poetry run python -m core.server
+poetry run python main.py
 ```
 
 ## Features
